@@ -1,0 +1,249 @@
+%-------------------------
+% Resume in Latex
+% Author : Mian Saad Tahir
+% Repo: https://github.com/miansaadtahir/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Mian Saad Tahir} \\ \vspace{2pt}
+    % 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +92 334-2241980 ~ \href{mailto:tahirsaad99@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{tahirsaad99@gmail.com}} ~ 
+    \href{https://linkedin.com/in/miansadtahir/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/miansadtahir}}  ~
+    \href{https://github.com/miansadtahir/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/miansadtahir}}
+    \href{https://miansaadtahir.netlify.app/}{\raisebox{-0.2\height}\faBriefcase\ \underline{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Engineering and Technology, Lahore}{Sep. 2023 -- May 2027}
+      {Bachelor of Science in Computer Science}{CGPA: 3.511}
+    \resumeSubheading
+      {KIPS College, Lahore}{Nov. 2021 -- May 2023}
+      {Intermediate in Computer Science}{Grade: A+}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Algorithms Analysis
+                \item Database Systems
+                \item Computer Architecture
+                \item Computer Networks
+                \item Software Engineering
+                \item Artificial Intelligence
+                \item Information Security
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Hack Secure}{Apr. 2025 -- May 2025}
+      {Cyber Security Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Performed comprehensive web application assessments using Nmap, Gobuster, and Wireshark to identify open ports,
+misconfigured directories, and insecure data transmission.}
+        \resumeItem{Exploited critical vulnerabilities including SQL Injection with sqlmap to enumerate databases and dump sensitive
+data, and XSS to demonstrate stored and reflected script injection.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Price My Ride} -- \emph{Used car price estimator} $|$ \textbf{Flask, TensorFlow, Keras, Scikit-Learn}}{\href{https://github.com/MianSaadTahir/Price-My-Ride}{Source Code}}
+          \resumeItemListStart
+            \resumeItem{Developed a Flask web app that predicts used car prices using a custom-trained Deep Neural Network (DNN) model.}
+            \resumeItem{Built a 3-layer DNN using TensorFlow and Keras with One-Hot Encoding and visualized key regression metrics.}
+            \resumeItem{Prepared an IEEE-format research paper detailing the project’s methodology, experiments, evaluation, and results.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Threat Guard} -- \emph{Cybersecurity web app} $|$ \textbf{Flask, Python, SQLite, REST API}}{\href{https://github.com/MianSaadTahir/threat-guard}{Source Code}}
+          \resumeItemListStart
+            \resumeItem{Built a Flask app to scan URLs, files, and QR codes for malware using VirusTotal API and jsQR.}
+            \resumeItem{Integrated breach detection through the HaveIBeenPwned API to check if emails or passwords have been compromised.}
+            \resumeItem{Implemented user authentication with hashed passwords and managed data using SQLite databases.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Nike Store} -- \emph{Inventory management system} $|$ \textbf{C\#, Windows Forms, MSSQL}}{\href{https://github.com/MianSaadTahir/nike-store}{Source Code}}
+          \resumeItemListStart
+            \resumeItem{Developed a Win Forms POS system with SQL database for inventory control and customer order management.}
+            \resumeItem{Implemented a modular 3-tier architecture with separate business logic, data access, and UI layers for scalability.}
+            \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+                    \resumeProjectHeading
+          {\textbf{Video Nexus} -- \emph{Video entertainment platform} $|$ \textbf{HTML, CSS, JavaScript}}{\href{https://github.com/MianSaadTahir/Video-Nexus}{Source Code}}
+          \resumeItemListStart
+            \resumeItem{Built a web video platform that allows users to browse and play content across multiple categories.}
+            \resumeItem{Designed a clean, responsive frontend with custom playback controls using vanilla JavaScript.}
+
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+    \resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
+     \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Codex 2.0}{Nov. 2023}{Coding Competition Participant}{UET Lahore}
+            \resumeItemListStart
+                \resumeItem{Participated in problem-solving rounds hosted by Software Square Society; successfully solved 2 out of 3 problems in a time-constrained, team-based competition.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
